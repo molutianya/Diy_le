@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bz"
+    >
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/text_radiu"
+            android:hint="请输入用户名"
+            android:textColor="#0000FF"
+            android:id="@+id/username"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/y1"
+            android:drawablePadding="10dp"
+            android:textColorHint="#fff"
+            android:textSize="15dp"/>
+
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/text_radiu"
+            android:hint="请输入密码"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:paddingLeft="10dp"
+            android:textColorHint="#fff"
+            android:drawableLeft="@drawable/mima"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"
+        android:textColor="#fff"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ck"
+        android:theme="@style/MyCheckBox"
+        />
+
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/login"
+        android:text="登      录"
+        android:textColor="#fff"
+        android:background="@drawable/button_radiu"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="忘记密码"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/wjmm"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25sp"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="用户注册"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:textColor="#fff"
+            android:id="@+id/zc"
+            />
+
+    </TableRow>
+
+
+
+</LinearLayout>

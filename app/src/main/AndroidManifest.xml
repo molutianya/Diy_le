@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="topteam.com.diy_le">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/le"
+        android:label="账单管理"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Zhuce" />
+        <activity android:name=".Wjmm" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UpPassword"></activity>
+    </application>
+
+</manifest>
